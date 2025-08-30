@@ -18,14 +18,6 @@ This project implements a comprehensive **Responsible AI** approach to income pr
   - Country origin discrimination: 12.04:1 (India vs Guatemala)
 - **Best Mitigation Strategy**: Group Balancing achieved 38.4% reduction in gender bias
 
-## 📊 Interactive Results
-
-Visit our **[GitHub Pages Site](https://yourusername.github.io/bias-mitigation-income-prediction/)** to explore:
-- 📈 Interactive visualizations of bias analysis
-- 📋 Detailed model comparison tables  
-- 🎯 Bias mitigation strategy effectiveness
-- 📖 Complete methodology documentation
-
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -60,10 +52,6 @@ python scripts/BiasMitigationSystem.py
 ├── scripts/                       # Python analysis scripts
 │   ├── ExpAnalisis.py            # Exploratory Data Analysis
 │   └── BiasMitigationSystem.py   # Bias mitigation implementation
-├── docs/                         # GitHub Pages documentation
-│   ├── index.html                # Main page
-│   ├── results/                  # Results pages
-│   └── assets/                   # CSS, JS, images
 ├── results/                      # Generated outputs
 │   ├── baseline_model_results.json
 │   ├── mitigation_results_comparison.json
@@ -123,21 +111,8 @@ Performance: 80.99% accuracy, 67.81% F1-score (minimal degradation)
 - **Operational Risk**: Intersectional biases not fully addressed
 
 ### 💡 Recommendations
-1. **SUSPEND DEPLOYMENT** until bias reduction below 2:1 ratio achieved
-2. **Implement Advanced Techniques**: Adversarial training, synthetic data generation
-3. **Update Dataset**: Use post-1994 data with equitable representation
-4. **Continuous Monitoring**: Real-time bias detection in production
-
-## 📚 Documentation
-
-- **[Methodology](docs/methodology.md)**: Detailed analysis approach
-- **[Results](docs/results.md)**: Comprehensive findings
-- **[API Reference](docs/api.md)**: Code documentation
-- **[Bias Metrics](docs/bias-metrics.md)**: Fairness evaluation methods
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+1. **Implement Advanced Techniques**: Adversarial training, synthetic data generation
+2. **Update Dataset**: Use post-1994 data with equitable representation
 
 ### Areas for Improvement
 - Advanced adversarial debiasing implementation
@@ -145,22 +120,9 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 - Additional fairness metrics (equalized odds, individual fairness)
 - Real-time bias monitoring dashboard
 
-## 📄 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@article{fulladolsa2025bias,
-  title={Bias Mitigation in Income Prediction Models: A Responsible AI Approach},
-  author={Fulladolsa Palma, Adrian},
-  journal={Universidad del Valle de Guatemala},
-  year={2025}
-}
-```
 
 ## 🔗 Links
 
-- **Live Demo**: [GitHub Pages](https://yourusername.github.io/bias-mitigation-income-prediction/)
 - **Dataset**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/adult)
 - **University**: [Universidad del Valle de Guatemala](https://www.uvg.edu.gt/)
 
